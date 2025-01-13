@@ -1,0 +1,31 @@
+:root {
+  --clr-green: hsl(75, 94%, 57%);
+
+  --clr-white: hsl(0, 0%, 100%);
+
+  --clr-grey-700: hsl(0, 0%, 20%);
+  --clr-grey-800: hsl(0, 0%, 12%);
+  --clr-grey-900: hsl(0, 0%, 8%);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body{
+  min-height: 100vh;
+  
+  line-height: 1.6;
+  background-color: var(--clr-grey-900);
+  display: grid;
+  place-items: center;
+}
+

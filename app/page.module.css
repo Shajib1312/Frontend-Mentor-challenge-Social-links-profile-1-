@@ -1,0 +1,68 @@
+.container {
+  padding-inline: 15rem;
+  margin: 9rem 0 auto;
+}
+
+.Profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--clr-grey-800);
+  width: 29.875rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.avatar {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  margin-bottom: 1rem;
+}
+
+.name {
+  text-align: center;
+  font-size: 2.3rem;
+  color: var(--clr-white);
+
+}
+
+.location {
+  font-size: 1.4rem;
+  color: var(--clr-green);
+  margin-bottom: 2rem;
+}
+
+.title {
+  color: var(--clr-white);
+  margin-bottom: 1.3rem;
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.link {
+  background-color: var(--clr-grey-700);
+  padding: 1.3rem 0;
+  text-decoration: none;
+  color: var(--clr-white);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 800;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.link:hover {
+  transition: all 0.3s ease-in-out; 
+  background-color: var(--clr-green);
+  color: var(--clr-grey-700);
+}
