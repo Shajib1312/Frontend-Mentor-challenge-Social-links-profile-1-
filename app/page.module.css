@@ -1,6 +1,6 @@
 .container {
-  padding-inline: 15rem;
-  margin: 9rem 0 auto;
+  padding-inline: 10rem;
+  margin: 5rem 0 auto;
 }
 
 .Profile {
@@ -9,55 +9,58 @@
   align-items: center;
   flex-direction: column;
   background-color: var(--clr-grey-800);
-  width: 29.875rem;
-  padding: 1rem;
-  border-radius: 1rem;
+  width: 24rem;
+  height: 38rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 
 .avatar {
-  width: 10rem;
-  height: 10rem;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
-  aspect-ratio: 1;
-  margin-bottom: 1rem;
+
+  margin-top: 0.2rem;
 }
 
 .name {
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 2rem;
   color: var(--clr-white);
 
 }
 
 .location {
-  font-size: 1.4rem;
+  font-size: 1rem;
   color: var(--clr-green);
-  margin-bottom: 2rem;
+  margin-bottom: 1.8rem;
 }
 
 .title {
   color: var(--clr-white);
-  margin-bottom: 1.3rem;
+  margin-bottom: 1rem;
 }
 
 .links {
   width: 100%;
   display: flex;
   justify-content: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
   flex-direction: column;
 }
 
 .link {
   background-color: var(--clr-grey-700);
-  padding: 1.3rem 0;
+  padding: 0.8rem 0;
   text-decoration: none;
   color: var(--clr-white);
   text-align: center;
   font-size: 1rem;
   font-weight: 800;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   margin-bottom: 1rem;
 }
 
